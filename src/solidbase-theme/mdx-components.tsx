@@ -3,11 +3,10 @@ import { isServer } from "solid-js/web";
 
 import { A } from "~/ui/i18n-anchor";
 import { clientOnly } from "@solidjs/start";
-import { Callout } from "~/ui/callout";
 
 export { EditPageLink } from "../ui/edit-page-link";
 export { PageIssueLink } from "../ui/page-issue-link";
-export { Callout } from "~/ui/callout";
+import { Callout } from "~/ui/callout";
 export { TabsCodeBlocks } from "~/ui/tab-code-blocks";
 export { QuickLinks } from "~/ui/quick-links";
 export { ImageLinks } from "~/ui/image-links";
